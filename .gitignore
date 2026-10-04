@@ -1,0 +1,19 @@
+# Environment files
+.env
+
+# Python cache & virtual environments
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Data directory contents (keep folder structure)
+# raw data is tracked or ignored based on preference, but raw sample CSVs can be kept or generated.
+# data/processed/ generated files
+data/processed/*
+!data/processed/.gitkeep
+
+# IDE / OS specific
+.DS_Store
+.vscode/
+.idea/
